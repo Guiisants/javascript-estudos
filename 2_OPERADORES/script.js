@@ -54,3 +54,10 @@ console.log( 10 >= 5);
 console.log(30 === 30);
 console.log(30 >= 30);
 console.log(typeof true); // Aqui no caso estamos colocando que o tipo de dado é booleano, ou seja, verdadeiro ou falso.
+
+// Comparações > e > maior ou menor <= >= maior ou igual menor ou igual != diferente === identicos/igual
+
+console.log(5 <= 5);
+console.log( 5 < 5);
+console.log(5 != 5);
+console.log(5 === 5);
