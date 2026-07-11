@@ -38,9 +38,19 @@ console.log("Oi," + " tudo" + " bem?"); // Vai unir um texto normal, como se esc
 
 // Interpolação - Template Strings
 
-console.log(`A soma de 2 + 2 é: ${ '10 + 10'} `) // ele faz a conversao como texto
+console.log(`A soma de 2 + 2 é: ${ '10 + 10'} `); // ele faz a conversao como número, se colocar as crases no meio dos cochetes, como se fosse o console.log() ele lê como texto 10 + 10
 
 // ELE SEMPRE PRECISA SER ESCRITO DENTRO DAS CRASES  SHIFT + ` - PODE SER CONSIDERADO DE TEMPLATE STRINGS
 
-console.log(`Posso executar qualquer coisa aqui ${console.log("")}`)
+console.log(`Posso executar qualquer coisa aqui ${console.log("teste")}`)
 
+// Booleanos
+console.log(true);
+console.log(false);
+
+console.log( 10 > 5);
+console.log( 10 < 5);
+console.log( 10 >= 5);
+console.log(30 === 30);
+console.log(30 >= 30);
+console.log(typeof true); // Aqui no caso estamos colocando que o tipo de dado é booleano, ou seja, verdadeiro ou falso.
