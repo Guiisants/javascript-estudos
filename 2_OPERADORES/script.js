@@ -12,7 +12,7 @@ console.log(2 * 4);
 console.log(10 / 4);
 console.log(20 + 20 / 2);
 console.log(typeof Infinity); // Isso significa que é number
-console.log(typeof infinity); // Colocará como indefinido, ou seja, não existe
+console.log(typeof Infinity); // Colocará como indefinido, ou seja, não existe
 
 console.log(12 * "asd");
 
@@ -57,7 +57,7 @@ console.log(typeof true); // Aqui no caso estamos colocando que o tipo de dado �
 
 // Comparações > e > maior ou menor <= >= maior ou igual menor ou igual != diferente === identicos/igual
 
-console.log(5 <= 5);
+console.log(5 <= 5); 
 console.log( 5 < 5);
 console.log(5 != 5);
 console.log(5 === 5);
