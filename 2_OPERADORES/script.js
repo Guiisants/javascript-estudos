@@ -68,3 +68,7 @@ console.log(9 + "9");
 console.log(9 === 9);
 console.log(9 != "9");
 console.log(9 !=="9");
+
+// Operadores Lógicos
+console.log(true && false); // Aqui necessecitaria está true, pq ele "só aceita" se for tudo certo
+console.log(true || false); 
